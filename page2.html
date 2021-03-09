@@ -1,36 +1,50 @@
+<!-- DOCTYPE html defines this file as an html document that will accept html code
+     head contains data about data you want to put in your file (like title, style)
+     title gives some name to your file
+     style takes in code that displays segments of the code (body, h1, p, div) in a certain way -->
 <!DOCTYPE html>
-<head >
-<title>Nihal's Homepage</title>
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
-</style>
-
+<!DOCTYPE html>
+<head>
+   <title>Generic Homepage</title>
+   <style>
+      body
+       {
+        font-family: Arial, Helvetica, sans-serif;
+       }
+      h1 {text-align: center;}
+      p {text-align: center;}
+      div {text-align: center;}
+   </style>
 </head>
-<div class="navbar">
-  <a href="https://edportal.harvard.edu/">Ed Portal</a>
-  <a href="site1.html">Home page</a>
-  <a href="#">My other favorite site</a>
-</div>
+
+<!-- div defines a section (a division) of your document
+     here, we want the section to be a navigation bar
+     <a defines some hyperlink to another webpage -->
+      <div class="navbar">
+        <a href="https://edportal.harvard.edu/">Ed Portal</a>
+        <a href="page2.html">Other page</a>
+        <a href="#">My other favorite site</a>
+      </div>
+
+<!-- body defines the body of the html document  -->
 <body style="background-color:powderblue">
 
+   <!-- h1 defines a header to be displayed on your website along with a certain background color
+        p defines a paragraph of text that can have a certain color defined to it
+        ol creates an ordered list
+        li defines some item in the list (*** go ahead and put some new information inside it ***)-->
+   <h1 style="background-color:Tomato;">Tell us something about yourself</h1>
+      <p style="color:Gray;">
+         <ol>
+            <li>I go to school at:</li>
+            <li>My favorite color is:</li>
+            <li>My favorite movie is: </li>
+         </ol>
+      </p>
 
-
-<h1 style="background-color:Tomato;">Tell us something about yourself</h1>
-<p style="color:Gray;">
-
-<ol>
-  <li>I go to school at:</li>
-  <li>My favorite color is:</li>
-  <li>My favorite movie is: </li>
-</ol>
-
-
-</p>
-
+<!-- the body statement says that this line is the end of the body for this page (as defined
+     in lines 5-10) -->
 </body>
+
+<!-- the html statement marks the end of the file -->
 </html>
